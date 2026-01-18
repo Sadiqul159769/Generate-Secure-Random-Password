@@ -20,7 +20,7 @@ function cretePassword(){
         //console.log(randomNum, password) 
     }  
     inputEl1.value= password;
-    showAlart1.innerText = password + " copied!";
+    showAlart1.innerText = "Password" + " Copied!";
 }
 
 copyIconEl1.addEventListener("click",()=>{
@@ -38,5 +38,6 @@ function copyPassword(){
     inputEl1.setSelectionRange(0,9999);
     navigator.clipboard.writeText(inputEl1.value);
 }
+
 
 
